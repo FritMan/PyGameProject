@@ -162,7 +162,7 @@ def main():
         score_text = font.render(f"Счет: {score}", True, WHITE)
         screen.blit(score_text, (10, 10))
         pygame.display.flip()
-        if score >= 50:
+        if score >= 20:
             game_win = True
 
         if game_over:
