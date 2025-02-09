@@ -7,6 +7,8 @@ import sqlite3
 
 pygame.init()
 
+
+
 WIDTH, HEIGHT = 1500, 800
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
